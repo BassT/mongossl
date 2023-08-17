@@ -1,0 +1,17 @@
+{
+  "ca": {
+    "certificatePEMFile": "mongodb-ca.pem"
+  },
+  "hosts": [
+    {
+      "hostname": "mongodb-server1.mongodb.com",
+      "certificatePEMFile": "mongodb-server1.mongodb.com.pem",
+      "isMongoDBServer": true
+    },
+    {
+      "hostname": "mongodb-server2.mongodb.com",
+      "certificatePEMFile": "mongodb-server2.mongodb.com.pem",
+      "isMongoDBServer": true
+    }
+  ]
+}
